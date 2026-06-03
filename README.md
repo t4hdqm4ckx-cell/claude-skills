@@ -26,6 +26,9 @@ See [INSTRUCTIONS.md](INSTRUCTIONS.md) for full setup details.
 | Skill | Description |
 |---|---|
 | [dcf-model](finance-investing/dcf-model.md) | DCF valuation from revenue growth, margins, WACC, and terminal growth → intrinsic value per share |
+| [monte-carlo-sim](finance-investing/monte-carlo-sim.md) | Monte Carlo simulation for portfolio return distributions — percentiles, probability of loss, VaR |
+| [options-pricing](finance-investing/options-pricing.md) | Black-Scholes options pricing with full Greeks (delta, gamma, theta, vega, rho) and break-even |
+| [macro-brief](finance-investing/macro-brief.md) | Macro environment snapshot — rates, inflation, growth, USD, risk sentiment, asset allocation implications |
 | [returns-calc](finance-investing/returns-calc.md) | Calculate total return, annualized return (CAGR), and dividend-adjusted return |
 | [var-calc](finance-investing/var-calc.md) | Value at Risk — historical, parametric, and Monte Carlo approaches |
 | [fx-exposure](finance-investing/fx-exposure.md) | Analyze FX currency exposure across a portfolio or business |
@@ -49,6 +52,9 @@ See [INSTRUCTIONS.md](INSTRUCTIONS.md) for full setup details.
 | [cash-runway](business/cash-runway.md) | Burn rate, cash runway, and capital efficiency analysis |
 | [earnings-brief](business/earnings-brief.md) | Earnings call summary — key metrics, guidance, and management tone |
 | [renewal-check](business/renewal-check.md) | Vendor contract renewal review: pricing, usage, alternatives, negotiation levers. See also: [software-renewal-alert-agent](https://github.com/t4hdqm4ckx-cell/software-renewal-alert-agent) for automated contract monitoring. |
+| [churn-analysis](business/churn-analysis.md) | Cohort churn breakdown — retention curves, revenue churn vs logo churn, root cause hypotheses |
+| [ltv-cac](business/ltv-cac.md) | Deep-dive LTV:CAC — lifetime value, payback period, efficiency benchmarks, sensitivity analysis |
+| [pricing-strategy](business/pricing-strategy.md) | Design SaaS pricing tiers — value metric, packaging, anchoring, and expansion revenue levers |
 
 ---
 
@@ -67,6 +73,9 @@ See [INSTRUCTIONS.md](INSTRUCTIONS.md) for full setup details.
 | [regex-build](dev-engineering/regex-build.md) | Build, test, and explain regular expressions |
 | [docker-help](dev-engineering/docker-help.md) | Dockerfile, Docker Compose, and container troubleshooting |
 | [repo-init](dev-engineering/repo-init.md) | Scaffold a new repo with folder structure, README, and CI config |
+| [ci-debug](dev-engineering/ci-debug.md) | Classify and fix CI/CD failures from raw log output — test, build, env, flaky, infra, auth |
+| [api-design](dev-engineering/api-design.md) | Design REST or GraphQL endpoints — routes, schemas, auth, versioning, error conventions |
+| [pr-description](dev-engineering/pr-description.md) | Generate a clear PR title, summary, test plan, and reviewer notes from a diff or change description |
 
 ---
 
@@ -82,6 +91,9 @@ See [INSTRUCTIONS.md](INSTRUCTIONS.md) for full setup details.
 | [mcp-scaffold](ai-agents/mcp-scaffold.md) | Scaffold a new MCP server with tool definitions and handlers |
 | [tool-schema](ai-agents/tool-schema.md) | Design Claude tool (function) schemas with well-described parameters |
 | [context-trim](ai-agents/context-trim.md) | Identify and remove context window bloat to improve performance and cost |
+| [structured-output](ai-agents/structured-output.md) | Write prompt instructions enforcing JSON schema output — validation, fallback, failure modes |
+| [rag-design](ai-agents/rag-design.md) | Design a RAG pipeline — chunking strategy, embeddings, retrieval, reranking, prompt assembly |
+| [chain-of-thought](ai-agents/chain-of-thought.md) | Apply CoT prompting — select variant, write templates, validate reasoning chains |
 
 ---
 
